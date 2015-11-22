@@ -37,6 +37,7 @@ public class SoulsCore {
 	@EventHandler
 	public void init(FMLInitializationEvent event){
 		proxy.setRenders();
+		SoulsCrafting.init();
 	}
 	
 	@EventHandler
