@@ -6,6 +6,7 @@ import rox.souls.SoulsInfo;
 import rox.souls.items.Scythes;
 
 public class ClientProxy extends CommonProxy{
+	@Override
 	public void setRenders(){
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Scythes.scytheWood, 0, new ModelResourceLocation(SoulsInfo.id + ":" + Scythes.scytheWood.getUnlocalizedName().substring(5), "inventory"));
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Scythes.scytheStone, 0, new ModelResourceLocation(SoulsInfo.id + ":" + Scythes.scytheStone.getUnlocalizedName().substring(5), "inventory"));
