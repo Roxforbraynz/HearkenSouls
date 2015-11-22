@@ -6,8 +6,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import rox.souls.items.ScytheBase;
-import rox.souls.items.ScytheWood;
+import rox.souls.items.Scythes;
 import rox.souls.proxy.CommonProxy;
 
 @Mod(modid = SoulsInfo.id,
@@ -21,7 +20,7 @@ public class SoulsCore {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event){
-		ScytheWood.init();
+		Scythes.init();
 	}
 	
 	@EventHandler
