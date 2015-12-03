@@ -1,6 +1,5 @@
 package rox.souls.items;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import rox.souls.SoulsCore;

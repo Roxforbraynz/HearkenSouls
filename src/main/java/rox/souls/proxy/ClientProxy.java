@@ -1,7 +1,6 @@
 package rox.souls.proxy;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.ItemModelMesher;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import rox.souls.SoulsInfo;
 import rox.souls.items.Scythes;

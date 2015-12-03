@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import rox.souls.blocks.SoulWell;
 import rox.souls.items.Scythes;
 import rox.souls.items.Soul;
 import rox.souls.proxy.CommonProxy;
@@ -31,6 +32,7 @@ public class SoulsCore {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event){
 		Scythes.init();
+		SoulWell.init();
 		Soul.init();
 	}
 	

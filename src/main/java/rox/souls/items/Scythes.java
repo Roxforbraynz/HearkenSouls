@@ -48,6 +48,7 @@ public class Scythes extends ItemSword{
         return 60;
     }
 	
+	@SuppressWarnings("unchecked")
 	@Override
 	public ItemStack onItemUseFinish(ItemStack stack, World world, EntityPlayer player){
 		List<EntityLiving> e = player.worldObj.getEntitiesWithinAABB(EntityLiving.class, AxisAlignedBB.fromBounds(player.posX - 4, player.posY - 3, player.posZ - 4, player.posX + 4, player.posY + 2, player.posZ + 4));
